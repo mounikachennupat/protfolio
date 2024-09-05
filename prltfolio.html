@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="protofile.css" type="text/css" />
+    
+
+<body>
+   
+    <div class="student">
+
+        <nav>
+            <h1 class="logo">Portfolio</h1>
+            <ul>
+                <li><a href="https://www.instagram.com/vamc._07/?hl=en">Contact</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox">Email</a></li>
+                <li><a href="https://www.instagram.com/_.nandini._0911/">Instagram</a></li>
+                <li><a href="https://github.com/topics/profile-link">Github</a></li>
+            </ul>
+
+        </nav>
+        <div class="content ">
+
+            <h3>Hello, my name is</h3>
+            <h2>Kavyanjali Biyyapu</h2>
+            <h3>I' am Front - End Web Developer</h3>
+            <div class="newslatter ">
+
+                <form id="newsletterForm">
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email" />
+                    <button type="button" onclick="validateEmail()">Let's Start</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <section class="about" id="about">
+        <div class="main">
+            <img
+                src="https://w0.peakpx.com/wallpaper/866/110/HD-wallpaper-cute-little-girl-children-little-girl-smile-adorable-human-thumbnail.jpg" />
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h3>Developer & Designer</h3>
+                <p>
+                    As a 3rd-year B.Tech student in Electronics and communication engineering at QIS COLLEGE OF ENGINEERING & TECHNOLOGY
+                    AUTONOMOUS in ONGOLE, I am deeply passionate about web development. With a keen interest in creating
+                    dynamic and interactive websites, I enjoy combining my technical knowledge with creative design elements to
+                    deliver engaging user experiences. Through my studies and hands-on projects, I have gained
+                    proficiency in programming languages, front-end
+                    development, and database management, enabling me to build functional and visually appealing web
+                    applications. With every project, I strive to enhance my skills, stay updated with industry trends,
+                    and contribute to the ever-evolving
+                    world of web development.
+                </p>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <div class="title">
+        <h1>My Projects</h1>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-regular fa-clock"></i>
+                <h3>temperature</h3>
+                <div class="pra">
+                    <p>
+                        A temperature converter helps convert the temperature between Fahrenheit and 
+                        Celsius scale. Temperature is measured using a thermometer. While Kelvin (K) is
+                         the SI unit of temperature, people generally use Centigrade or Celsius (°C) and 
+                         Fahrenheit (°F) to measure temperature.
+
+                    </p>
+
+                    <p style="text-align: center">
+                        <a class="button" href="https://github.com/Kavyanjali04/temperaturecontrol.git">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Tic Tac Toe</h3>
+                <div class="pra">
+                    <p>
+                        The Tic Tac Toe Game is a classic implementation of the popular 3x3 grid game.
+                        It provides an engaging user experience with a sleek, responsive design and smooth
+                        gameplay.Developed as a part of my personal projects and achivements
+                    </p>
+                    <p style="text-align: center">
+                        <a class="button" href="https://github.com/Kavyanjali04/tictac.git">Read
+                            More</a>
+                    </p>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+   
+    <div class="title">
+        <h1>Education</h1>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>QISCET</h3>
+                <h5>Ongole ,Andhra Pradesh</h5>
+                <div class="vam">
+                    <p>
+                        Bachelor of Technology in Electronics and communication  Engineering (ECE) QIS COLLEGE OF ENGINEERING &
+                        TECHNOLOGY AUTONOMOUS Current CGPA: 9.1
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-building-columns"></i>
+                <h3>NRI junior college</h3>
+                <h5>Ongole, Andhra Pradesh</h5>
+                <div class="vam">
+                    <p>
+                        From 2020 to 2022, I completed my intermediate studies in mathematics, chemistry, and physics,
+                        achieving a score of 849 out of 1000.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-school"></i>
+                <h3>vijetha high school</h3>
+                <h5>Ongole, Andhra Pradesh</h5>
+                <div class="vam">
+                    <p>
+                        I completed my 6th to 10th grade studies at Vijetha High School, following the state
+                        syllabus, from 2016 to 2020. I achieved an excellent academic record, scoring 595 out of 600 in
+                        the 10th grade.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Biyyapu Kavyanjali</p>
+        <p>For more Details-please contact through the below paltforms:</p>
+        <div class="social">
+            <ul>
+                
+                <li><a href="https://www.linkedin.com/feed/">Linkedin</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://github.com/dashboard">Github</a></li>
+            </ul>
+        </div>
+        <p class="end">Copy Right By Biyyapu Kavyanjali</p>
+    </footer>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            
+            function scrollToElement(element) {
+                element.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            }
+
+            // Selecting the form and button in the newsletter section
+            const newsletterForm = document.querySelector(".newslatter form");
+            const newsletterButton = document.querySelector(".newslatter form button");
+
+            // Selecting the button in the about section
+            const aboutButton = document.querySelector(".about button");
+
+            // Adding event listener to the newsletter button
+            newsletterButton.addEventListener("click", function (event) {
+                event.preventDefault(); // Prevent form submission
+                const aboutSection = document.querySelector(".about");
+                scrollToElement(aboutSection);
+            });
+
+            // Adding event listener to the about button
+            aboutButton.addEventListener("click", function (event) {
+                const serviceSection = document.querySelector(".service");
+                scrollToElement(serviceSection);
+            });
+        });
+    </script>
+</body>
+
+</html>
